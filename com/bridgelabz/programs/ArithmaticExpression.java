@@ -1,5 +1,12 @@
 package com.bridgelabz.programs;
-
+/***********************************************
+ * Purpose :This program read​​ in​​ Arithmetic​ Expression​ and
+ * 			prints True​ ​or​  False​ ​to​ Show​​ Arithmetic​ Expression​​ is​ ​balanced​ or​ ​not.​​
+ *           
+ * @author  Sujit Chincholkar
+ * @version 1.0
+ * @since   24/08/2017          
+ ***********************************************/
 import java.util.Scanner;
 
 public class ArithmaticExpression {

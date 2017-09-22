@@ -1,3 +1,11 @@
+/***********************************************
+ * Purpose :This program read wrod from file and put them 
+ * 			into OrderedList​
+ *           
+ * @author  Sujit Chincholkar
+ * @version 1.0
+ * @since   24/08/2017          
+ ***********************************************/
 package com.bridgelabz.programs;
 
 import java.util.Scanner;

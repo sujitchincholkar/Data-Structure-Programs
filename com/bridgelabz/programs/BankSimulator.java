@@ -1,3 +1,11 @@
+/***********************************************
+ * Purpose :​This Program​ ​​Have​ an​ ​input​ ​panel​ to​ ​add​ ​people
+ *			to​ ​Queue​ ​to​ ​either​ deposit​​ or​ ​withdraw​ money​  and​  dequeue​ ​the​ people.​​
+ *           
+ * @author  Sujit Chincholkar
+ * @version 1.0
+ * @since   24/08/2017          
+ ***********************************************/
 package com.bridgelabz.programs;
 
 import java.util.Scanner;
@@ -5,15 +13,12 @@ import java.util.Scanner;
 import com.bridgelabz.utility.Utility;
 
 public class BankSimulator {
-	static Scanner sc=new Scanner(System.in);
-	
-	
+	static Scanner scanner=new Scanner(System.in);
 	public static void main(String[] args) {
 		Queue<String> queue =new Queue<>();
 		int cash=0;
-		BankSimulator bank=new BankSimulator();
 		System.out.println("Enter number of people in line");
-		int numberOfPeople=sc.nextInt();
+		int numberOfPeople=scanner.nextInt();
 		Utility.addPeople(queue,numberOfPeople);
 		while(!queue.isEmpty()){
 			while(!queue.isEmpty()){
@@ -25,11 +30,9 @@ public class BankSimulator {
 				}
 			}
 		System.out.println("how many people added in line?");	
-		numberOfPeople=sc.nextInt();
+		numberOfPeople=scanner.nextInt();
 		Utility.addPeople(queue,numberOfPeople);
 		}
 		//System.out.println(bank.cash>=0);
 	}
-	
-
 }

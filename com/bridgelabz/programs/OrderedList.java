@@ -1,3 +1,10 @@
+/***********************************************
+ * Purpose :This program ​Create​ a​ Ordered​ Linked​  List​ ​having​ Numbers​ ​in​ ascending​ ​ order.​
+ *           
+ * @author  Sujit Chincholkar
+ * @version 1.0
+ * @since   24/08/2017          
+ ***********************************************/
 package com.bridgelabz.programs;
 
 public class OrderedList<T extends Comparable<T>> extends LinkedList<T> {

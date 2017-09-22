@@ -1,3 +1,10 @@
+/***********************************************
+ * purpose : To store all logic of the programs
+ *           
+ * @author  Sujit Chincholkar
+ * @version 1.0
+ * @since   24/08/2017          
+ ***********************************************/
 package com.bridgelabz.utility;
 
 import java.io.BufferedReader;
@@ -106,9 +113,7 @@ public class Utility {
 			}
 			words = lines.toArray(new String[lines.size()]);
 			bufferedReader.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		}  catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -337,7 +342,7 @@ public class Utility {
 		return cash;
 	}
 
-	/**
+	/**This method finds all possible combinations of binary search tree
 	 * @param totalNodes
 	 * @return
 	 */

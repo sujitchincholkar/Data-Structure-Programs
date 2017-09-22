@@ -1,3 +1,10 @@
+/***********************************************
+ * Purpose :This program search word in hashmap.​
+ *           
+ * @author  Sujit Chincholkar
+ * @version 1.0
+ * @since   24/08/2017          
+ ***********************************************/
 package com.bridgelabz.programs;
 
 import java.util.ArrayList;
@@ -17,8 +24,8 @@ public class HashSearch {
 			map.put(i, new LinkedList<Integer>());
 		}
 		for(int i=0;i<number.length;i++){
-			int  num=Integer.parseInt(number[i]);
-			map.get(num%11).add(num);
+			int  numberToAdd=Integer.parseInt(number[i]);
+			map.get(numberToAdd%11).add(numberToAdd);
 		}
 		System.out.println("Enter number to search");
 		int search=sc.nextInt();
